@@ -1,0 +1,62 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .all-\[unset\] {
+        all: unset;
+    }
+}
+
+:root {
+    --defaultwhite: rgba(255, 255, 255, 1);
+    --drop-shadow-main: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    --drop-shadow-normal: 0px 4px 10px 0px rgba(0, 0, 0, 0.02);
+    --drop-shadow-normal-focus: 0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+    --neutral-500: rgba(204, 204, 204, 1);
+    --neutral-700: rgba(153, 153, 153, 1);
+    --neutral-900: rgba(0, 0, 0, 1);
+    --opacityblack-10: rgba(0, 0, 0, 0.1);
+    --opacityblack-20: rgba(0, 0, 0, 0.2);
+    --opacityblack-4: rgba(0, 0, 0, 0.04);
+    --opacityblack-6: rgba(0, 0, 0, 0.06);
+    --opacityprimary-100: rgba(137, 88, 225, 1);
+    --opacitywhite-100: rgba(255, 255, 255, 1);
+    --paragraph-p3-semi-bold-font-family: "Inter-SemiBold", Helvetica;
+    --paragraph-p3-semi-bold-font-size: 16px;
+    --paragraph-p3-semi-bold-font-style: normal;
+    --paragraph-p3-semi-bold-font-weight: 600;
+    --paragraph-p3-semi-bold-letter-spacing: 0px;
+    --paragraph-p3-semi-bold-line-height: 24px;
+    --paragraph-p4-medium-font-family: "Inter-Medium", Helvetica;
+    --paragraph-p4-medium-font-size: 14px;
+    --paragraph-p4-medium-font-style: normal;
+    --paragraph-p4-medium-font-weight: 500;
+    --paragraph-p4-medium-letter-spacing: 0px;
+    --paragraph-p4-medium-line-height: 21px;
+    --paragraph-p4-regular-font-family: "Inter-Regular", Helvetica;
+    --paragraph-p4-regular-font-size: 14px;
+    --paragraph-p4-regular-font-style: normal;
+    --paragraph-p4-regular-font-weight: 400;
+    --paragraph-p4-regular-letter-spacing: 0px;
+    --paragraph-p4-regular-line-height: 21px;
+    --paragraph-p4-semi-bold-font-family: "Inter-SemiBold", Helvetica;
+    --paragraph-p4-semi-bold-font-size: 14px;
+    --paragraph-p4-semi-bold-font-style: normal;
+    --paragraph-p4-semi-bold-font-weight: 600;
+    --paragraph-p4-semi-bold-letter-spacing: 0px;
+    --paragraph-p4-semi-bold-line-height: 21px;
+    --paragraph-p5-medium-font-family: "Inter-Medium", Helvetica;
+    --paragraph-p5-medium-font-size: 12px;
+    --paragraph-p5-medium-font-style: normal;
+    --paragraph-p5-medium-font-weight: 500;
+    --paragraph-p5-medium-letter-spacing: 0px;
+    --paragraph-p5-medium-line-height: 18px;
+    --paragraph-p5-semi-bold-font-family: "Inter-SemiBold", Helvetica;
+    --paragraph-p5-semi-bold-font-size: 12px;
+    --paragraph-p5-semi-bold-font-style: normal;
+    --paragraph-p5-semi-bold-font-weight: 600;
+    --paragraph-p5-semi-bold-letter-spacing: 0px;
+    --paragraph-p5-semi-bold-line-height: 18px;
+    --primary700-main: rgba(137, 88, 225, 1);
+    --success700-main: rgba(0, 182, 116, 1);
+}
